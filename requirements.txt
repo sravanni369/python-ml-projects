@@ -1,0 +1,15 @@
+# Aggregated dependencies for all three projects.
+# You can also install per-project from each subfolder's requirements.txt.
+
+# spam_detection
+pandas>=2.0
+scikit-learn>=1.3
+nltk>=3.8
+
+# plagiarism_checker shares scikit-learn above
+
+# pdf_image_reader
+pytesseract>=0.3.10
+Pillow>=10.0
+pymupdf>=1.24
+pyttsx3>=2.90
